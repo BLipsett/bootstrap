@@ -1,0 +1,56 @@
+* {
+  outline: 2px solid palevioletred;
+}
+
+:root {
+  --color-header: linear-gradient(
+    0deg,
+    #2685d3 0%,
+    rgba(173, 209, 233, 1) 100%
+  );
+
+  --color-footer: #2b4b61;
+}
+
+.bg-color-header {
+  background: var(--color-header);
+}
+
+.hero-section {
+  margin: 10px;
+  height: 50vh;
+}
+
+.btn.download {
+  background-color: #1c598b7c;
+  color: white;
+}
+
+.header {
+  height: 80vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.header-font {
+  font-family: "Raleway", sans-serif;
+}
+
+.info-section {
+  height: 25vh;
+}
+
+.content-block:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.info-block {
+  height: 20rem;
+}
+
+.video-ad {
+  width: 100%;
+}
+
+.bg-color-footer {
+  background-color: var(--color-footer);
+}
